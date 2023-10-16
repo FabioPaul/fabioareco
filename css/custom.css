@@ -1,0 +1,222 @@
+.container {
+    max-width: 100%;
+}
+.portfolio-text p {
+    font-size: 16px;
+    opacity: .8;
+    font-family: poppins;
+    font-weight: 200;
+    padding: 20px;
+    color: white;
+}
+.skills-content {
+     height: auto; 
+    width: 100%; 
+    /margin-top: 20px; 
+    margin-bottom: 0px; 
+}
+.input-textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 15px;
+    height: 150px;
+    border-radius: 8px;
+    outline: none;
+    background: #050505;
+    border: none;
+    color: whitesmoke;
+    font-family: poppins;
+    font-size: 18px;
+}
+.input-subject {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 24px;
+    border-radius: 8px;
+    outline: none;
+    background: #050505;
+    border: none;
+    color: whitesmoke;
+    font-family: poppins;
+    font-size: 18px;
+}
+.input-name {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 14px;
+    border-radius: 8px;
+    outline: none;
+    background: #050505;
+    border: none;
+    color: whitesmoke;
+    font-family: poppins;
+    font-size: 18px;
+}
+.contect-info-content-line {
+    height: auto;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-left: 0px;
+}
+.fondo-contact {
+    max-width: 550px;
+    position: relative;
+ 
+}
+.contact-fondo {
+    width: 100%;
+    border-radius: 10px;
+}
+.dentro-contact {
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -100%);
+    width: 90%;
+}
+.about-header {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family: raleway;
+    color: whitesmoke;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    font-weight: 1000;
+}
+.about-first-line {
+    font-size: 45px;
+    opacity: 1;
+    margin-bottom: -5px;
+    display: block;
+}
+.about-second-line {
+    opacity: .8;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+}
+.about-img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border-radius: 40px;
+}
+.header-image img{
+    float: left;
+}
+.header-image{
+    float: right;
+    width: 100%; 
+    position: relative;  
+}
+.html-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 77%;
+    border-radius: 10px;
+    background: #c70039;
+}
+.jquery-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 89%;
+    border-radius: 10px;
+    background: #c70039;
+}
+.php-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57%;
+    border-radius: 10px;
+    background: #c70039;
+    transition: all .4s ease;
+}
+.about-first-paragraph {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.cv a button {
+    background: #bc0339;
+    border: none;
+    padding: 9px 20px;
+    color: whitesmoke;
+    outline: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+}
+.adobe-progress {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 52%;
+    border-radius: 10px;
+    background: #c70039;
+}
+.contact-info {
+    width: 40%;
+    height: 600px;
+    background: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-info {
+    width: 100%;
+    height: 600px;
+    background: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+@media (max-width: 400px) {
+    .header-image{
+        float: right;
+        width: 140%; 
+        position: relative;  
+    }
+}
