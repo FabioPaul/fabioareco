@@ -1,8 +1,21 @@
-<?php 
-$title      = "Fabio Paul - Porfolio";  
-include'head.php';
-?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Willy Wonkas - Personal Portfolio Website Template" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="willy wonka" />
+    <title>Sobre mí - Fabio Areco</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="images/favicon.png">
+   <!--favicon-img-->
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
 <body>
     <div id="all">
         <div class="cursor"></div>
@@ -12,7 +25,32 @@ include'head.php';
         <div id="breaker"></div>
         <div id="breaker-two"></div>
     </div>
-    <?php include 'header.php'; ?>
+    <div id="loader">
+        <span class="color"></span> 
+    </div>
+    <div id="navigation-content">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="navigation-close">
+            <span class="close-first"></span>
+            <span class="close-second"></span>
+        </div>
+        <div class="navigation-links">
+            <a href="index" data-text="INICIO">INICIO</a>
+            <a href="sobre-mi" data-text="SOBREMÍ">SOBRE MÍ</a>
+            <a href="porfolio" data-text="PORTFOLIO">PORTFOLIO</a>
+            <a href="contacto" data-text="CONTACTO">CONTACTO</a>
+        </div>
+    </div>
+    <div id="navigation-bar">
+        <img src="images/logo.png" alt="logo">
+        <div class="menubar">
+            <span class="first-span"></span>
+            <span class="second-span"></span>
+            <span class="third-span"></span>
+        </div>
+    </div>
     <section style="background: #1a1c1c;">
         <div class="container">
             <div id="about-content">
@@ -190,8 +228,15 @@ include'head.php';
             </div>
         </div>
     </div>
-</div></section>
-    <?php include'footer.php';?>
+</div>
+</section>
+    <div class="row">
+        <div class="footer">
+            <div class="footer-text">Todos los derechos reservados -
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px">Arte_polar_py
+            </div>
+        </div>
+    </div>
     </div>
     </div>
     </div>
