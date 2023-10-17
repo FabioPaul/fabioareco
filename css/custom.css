@@ -336,6 +336,10 @@
     transition: ease .5s;
 }
 
+.service:focus .service-img img {
+    box-shadow: 0px 0px 0px 400px #c70039;
+}
+
 .button-empresas {
     background: #c70039;
     border-radius: 10px;
