@@ -1366,9 +1366,9 @@ For devices with smaller width like mobile phone
         letter-spacing: 2px;
         font-size: 40px;
     }
-    .contact{
+    /* .contact{
         display: none;
-    }
+    } */
     .header-image{
         float: right;
         height: auto;
