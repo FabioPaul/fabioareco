@@ -241,13 +241,13 @@
     .contact {
         display: flex !important;
         align-items: end;
-        /* justify-content: center;
+        justify-content: center;
         width: 100%;
-        flex-direction: row-reverse; */
-        position: absolute;
+        flex-direction: row-reverse;
+        /* position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
     }
 
     #header {
