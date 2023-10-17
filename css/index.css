@@ -1369,11 +1369,11 @@ For devices with smaller width like mobile phone
     /* .contact{
         display: none;
     } */
-    .header-image{
+    /* .header-image{
         float: right;
         height: auto;
         width: 0%;   
-    }
+    } */
     .social-media-links{
         width: 100%;
         left: 0;
