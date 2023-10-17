@@ -240,6 +240,7 @@
     .header-image img {
         position: absolute;
         left: -20px;
+        height: 100vh !important;
     }
 }
 @media (max-width: 400px) {
