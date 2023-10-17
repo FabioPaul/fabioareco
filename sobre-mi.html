@@ -35,8 +35,11 @@
         </div>
         <div class="navigation-links">
             <a href="index" data-text="INICIO">INICIO</a>
-            <a href="sobre-mi" data-text="SOBREMÍ">SOBRE MÍ</a>
-            <a href="porfolio" data-text="PORTFOLIO">PORTFOLIO</a>
+            <a href="sobre-mi#sobre-mi" data-text="SOBREMÍ">SOBRE MÍ</a>
+            <a href="sobre-mi#servicios" data-text="SERVICIOS">SERVICIOS</a>
+            <a href="sobre-mi#conocimientos" data-text="CONOCIMIENTO">CONOCIMIENTOS</a>
+            <a href="sobre-mi#experiencia" data-text="EXPERIENCIA">EXPERIENCIA LABORAL</a>
+            <!-- <a href="porfolio" data-text="PORTFOLIO">PORTFOLIO</a> -->
         </div>
     </div>
     <div id="navigation-bar">
@@ -49,7 +52,7 @@
     </div>
     <section class="bg-dark relleno-section pb-0">
         <div class="container">
-            <div id="">
+            <div id="sobre-mi">
                 <div class="row margen-header">
                     <div class="about-header">
                         <span class="color">Sobre Mí</span>
@@ -79,7 +82,7 @@
     </section>
     <section class="bg-dark relleno-section">
         <div class="container">
-            <div id="services">
+            <div id="servicios">
                 <div class="services-heading wow">Mis Servicios</div>
                 <div class="services-content">
                     <div class="service-one service wow">
@@ -110,7 +113,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-dark-coral relleno-section">
+    <section id="conocimientos" class="bg-dark-coral relleno-section">
         <div class="services-heading wow">Mi conocimiento en Progamacíon</div>
         <div class="container">
                 <div class="row-conocimiento">
@@ -168,7 +171,7 @@
             </div>
         </div>
     </section> 
-    <section class="bg-dark relleno-section">
+    <section id="experiencia" class="bg-dark relleno-section">
         <div class="container">
             <div class="services-heading wow">
                 <span class="color">Experiencia Laboral</span> 
@@ -184,7 +187,12 @@
                         <h2>Fabio Areco</h2>
                         <p>Profesional Independiente</p>
                         <p>2020 - Actualidad</p>
-                        <button class="button-empresas">Ver Más</button>
+                        <button class="button-empresas" type="button" data-bs-toggle="modal" data-bs-target="#fabio-areco-modal">Ver Más</button>
+                    </div>
+                </div>
+                <div class="modal fade" id="fabio-areco-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        
                     </div>
                 </div>
                 <div class="service-one service wow empresa-card">
@@ -224,6 +232,7 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
