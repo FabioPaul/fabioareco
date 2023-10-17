@@ -436,7 +436,6 @@ body {
 .contact img {
     margin: 10px;
     height: 30px;
-    opacity: .6;
     transition: all .4s ease;
 }
 
