@@ -244,8 +244,6 @@
         justify-content: center;
         width: 100%;
         flex-direction: row-reverse;
-        position: absolute;
-        bottom: 100px;
     }
 
     #header {
