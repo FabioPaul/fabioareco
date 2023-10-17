@@ -239,7 +239,7 @@
 
 @media (max-width: 600px) {
     .contact {
-        display: flex;
+        display: flex !important;
         align-items: end;
         /* justify-content: center;
         width: 100%;
