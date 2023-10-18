@@ -350,6 +350,38 @@
     border: 1px solid #ffffff;
 }
 
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #191919;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.btn-close {
+    color: #ffffff;
+}
+
+.contacto-rapido img{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.contactpic:hover {
+    transform: translateY(-10px);
+    transition: ease.5s;
+}
+
 @media (max-width: 600px) {
     .contact {
         display: flex !important;
